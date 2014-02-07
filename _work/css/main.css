@@ -26,3 +26,11 @@ p, ul, ol {
 ul, ol {
 	list-style-type: none;
 }
+
+figcaption {
+	font-size: 1.25rem;
+}
+
+.button {
+	font-size: 1.5rem;
+}
