@@ -3,10 +3,15 @@
 [class*='col-'] {
 	float: left;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 }
 
-.grid:after; {
+.grid {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.grid:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -16,6 +21,12 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+nav:after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 .col-1of4 {
@@ -31,4 +42,12 @@
 	.col-1of4 {
 		width: 100%;
 	}
+}
+
+.col-1of3 {
+	width: 33.333%;
+}
+
+.col-2of3 {
+	width: 66.666%;
 }
