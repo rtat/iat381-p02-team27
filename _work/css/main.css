@@ -64,3 +64,28 @@ nav a.current {
 	height: 50px;
 	margin-top:0px;
 }
+
+form {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+form input, form textarea {
+	display: block;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1rem;
+	padding: 0.25rem;
+	border: 0.1rem solid #999; 
+	width:20%;
+}
+
+form input:hover, form textarea:hover {
+	border-color: orange;
+}
+
+form textarea {
+	width: 100%;
+	#form-comment {
+		height: 6rem;
+	}
+}
