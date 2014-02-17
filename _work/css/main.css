@@ -6,17 +6,21 @@ body {
 	color: black;
 }
 
-h1 {
+h1 {	/* Titles/headings */
 	font-size: 1.75rem;
 	font-style: bold;
 }
 
-h2 {
+h2 {	/* Menu/links/buttons */
 	font-size: 1.5rem;
 }
 
-h3 {
+h3 {	/* Style links/quotes */
 	font-size: 1.25rem;
+}
+
+h4 {	/* Price in preview page */
+	font-size: 2rem;
 }
 
 nav a, nav a:visited {
@@ -49,6 +53,11 @@ nav a.current {
 
 .button {
 	font-size: 1.5rem;
+	background-color: #265C81;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 #banner {
@@ -65,6 +74,7 @@ nav a.current {
 	margin-top:0px;
 }
 
+<<<<<<< b9b8fdb651b170df049c8b45d892622c5eeb3e4e
 form {
 	font-size: 1rem;
 	text-transform: uppercase;
@@ -103,4 +113,89 @@ form textarea {
 
 .button:hover {
 	background-color:#DB745B;
+=======
+#preview {
+	background-color: #888888;
+	width: 90%;
+	height: 12rem;
+	margin-bottom: 2rem;
+}
+
+.img-1of3 {
+	width: 100%;	
+}
+
+/*img.img-1of3 {
+	background-color: #888888;
+	width: 4rem;
+	height: 3rem;
+}*/
+
+#right-col {
+	float: right;
+}
+
+#comment-block {
+	width: 100%;
+	height: 100%;
+}
+
+
+#leave-comment { /* "Comment on it! */
+	background-color: #CFC290;
+	text-indent: 1rem;
+	height: 2.3rem;
+}
+
+#comment-button {
+	float: right;
+	height: 100%;
+	background-color: #265C81;
+}
+
+.right-align {
+	text-align: right;
+}
+
+form input {
+	background-color: #CFC290;
+	font-size: 1rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 0.1rem solid #999;
+	width: 100%;
+}
+
+#form-date-container {
+	width: 100%;
+}
+
+#form-date {
+	width: 80%;
+}
+
+#calender-button {
+	border: 0.1rem;
+	padding-top: 0.25rem;
+	background-color: #265C81;
+	width: 18%;
+	float: right;
+}
+
+#book {
+	margin-right: 0px;
+	float: right;
+}
+
+select {
+	width: 100%;
+	font-size: 1rem;
+}
+
+em {
+	font-size: 1.25rem;
+	color: #DB745B;
+>>>>>>> 111112da3d66ede321b81d90cac5e5b7ceb5d977
 }
