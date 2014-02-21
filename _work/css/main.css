@@ -74,7 +74,6 @@ nav a.current {
 	margin-top:0px;
 }
 
-<<<<<<< b9b8fdb651b170df049c8b45d892622c5eeb3e4e
 form {
 	font-size: 1rem;
 	text-transform: uppercase;
@@ -87,7 +86,7 @@ form input, form textarea {
 	font-size: 1rem;
 	padding: 0.5rem;
 	border: 0.1rem solid #999; 
-	width:100%;
+	width: 100%;
 	margin-bottom: 1rem;
 }
 
@@ -113,10 +112,11 @@ form textarea {
 
 .button:hover {
 	background-color:#DB745B;
-=======
+}
+
 #preview {
 	background-color: #888888;
-	width: 100%;
+	width: 13rem;
 	height: 12rem;
 }
 
@@ -168,12 +168,20 @@ form input {
 	width: 100%;
 }
 
+form textarea {
+	background-color: #CFC290;
+	font-size: 1rem;
+	width: 97%;
+	border: 0.1rem solid #999;
+}
+
 #form-date-container {
 	width: 100%;
 }
 
 #form-date {
 	width: 80%;
+	float: left;
 }
 
 #calender-button {
@@ -197,5 +205,4 @@ select {
 em {
 	font-size: 1.25rem;
 	color: #DB745B;
->>>>>>> 111112da3d66ede321b81d90cac5e5b7ceb5d977
 }
