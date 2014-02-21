@@ -48,12 +48,13 @@ nav:after {
 
 @media (max-width: 256px) {
 	.img-1of3 {
-		width:33.333%;
+		width: 33.333%;
 	}
 }
 
 .col-1of3 {
 	width: 33%;
+	margin-left: 0px;
 }
 
 .col-2of3 {
