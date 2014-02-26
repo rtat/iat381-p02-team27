@@ -69,6 +69,12 @@ nav a.current {
 	height: 15rem;
 }
 
+#promo {
+	width: 100%;
+	background-color: #888888;
+	height: 15.3rem;
+}
+
 #menu-top {
 	background-color: #DB745B;
 	width:100%;
@@ -123,7 +129,6 @@ form textarea {
 }
 
 figure img {
-	background-color: #888888;
 	padding: 0px;
 	margin: 0 auto;
 }
@@ -195,35 +200,32 @@ form textarea {
 }
 
 #form-date {
-	width: 80%;
+	width: 93%;
 	float: left;
 }
 
 #calender-button {
 	border: 0.1rem;
 	padding-top: 0.25rem;
-	background-color: #265C81;
-	width: 18%;
+	width: 6%;
 	float: right;
 }
 
 #book {
 	margin-right: 0px;
-	float: right;
+	float: left;
+}
+
+#details {
+	padding-right: 2rem;
 }
 
 select {
-	width: 100%;
+	width: 75%;
 	font-size: 1rem;
 }
 
 em {
 	font-size: 1.25rem;
 	color: #DB745B;
-}
-
-#promo {
-	width: 100%;
-	background-color: #888888;
-	height: 15.3rem;
 }
