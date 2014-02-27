@@ -69,6 +69,16 @@ nav a.current {
 	height: 15rem;
 }
 
+#banner img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#banner iframe {
+	max-width: 100%;
+	max-height: 100%;
+}
+
 #promo {
 	width: 100%;
 	background-color: #888888;
@@ -136,7 +146,7 @@ figure img {
 .imagebar-1of3 {
 	background-color: #888888;
 	max-width: 100%;
-	max-height: 95%;
+	max-height: 100%
 	display:inline-block;
 }
 
