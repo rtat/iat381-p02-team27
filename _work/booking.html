@@ -5,48 +5,83 @@
 	<meta charset="utf-8">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/grid.css" rel="stylesheet">
+
+	<link rel="shortcut icon" href="../favicon.ico"> 
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
 	<title>Mad Barbers - Appointment</title>
 </head>
 
 <body>
 	<section id="menu-top">
 
-	<div class="grid"> <!-- Grid with 15% margin -->
+	<div class="container">	
+		<div class="grid">
+			<nav id="menu" class="nav">					
+				<ul>
+					<li>
+						<a href="index.html">
+							<span class="icon">
+								<i aria-hidden="true" class="icon-home"></i>
+							</span>
+							<span>Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="gallery.html">
+							<span class="icon"> 
+								<i aria-hidden="true" class="icon-mustache"></i>
+							</span>
+							<span>Gallery</span>
+						</a>
+					</li>
+					<li>
+						<a href="barberbio.html">
+							<span class="icon">
+								<i aria-hidden="true" class="icon-team"></i>
+							</span>
+							<span>Barbers</span>
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							<span class="icon">
+								<i aria-hidden="true" class="icon-compass"></i>
+							</span>
+							<span>Contact</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+	
+	<div class="col-1of3">
+		<div class="confirmed-style">
+		<h1>Appointment for:</h1>
+			<figure>
+				<img id="preview" alt="Preview Image" src="img/the-cat.jpg">
+			</figure>
 
-	<nav>
-			<div class="col-1of4">
-				<a href="index.html">Mad Barbers</a>
-			</div>
-			<div class="col-1of4">
-				<a href="gallery.html">Gallery</a>
-			</div>
-			<div class="col-1of4">
-				<a href="barbarbio.html">Barber Bio</a>
-			</div>
-			<div class="col-1of4">
-				<a href="contact.html">Contact Us</a>
-			</div>
-	</nav>
-	</section>
-	</div> <!-- End of grid with 15% margin -->
-
-
-	<div class="grid"> <!-- Grid with 15% margin -->
-
-	<section>
-		<a href="gallery.html"><h3> < BACK to Gallery </h3><a>
-	</section>
-
-	<section class="barbers">
-		<h1>Choose a barber:</h1>
-		<figure>
-			<img width="100px" height="100px" alt="Barber 1">
-			<img width="100px" height="100px" alt="Barber 2">
-			<img width="100px" height="100px" alt="Barber 3">
-		</figure>
-	</section>
+		<h2>The Cat</h2>
+		<h2>$15.00</h2>
+	</div>
+	</div><!-- End of col-1of3 -->
 
 	<div class="col-2of3">
+	<section id="barbers">
+		<h1>Choose a barber:</h1>
+		<div class="barbers">
+			<img class="imagebar-1of3" src="img/barber1.jpg" />
+			<p class = center-align>Jim</p></a>
+		</div>
+		<div class="barbers">
+			<img class="imagebar-1of3" src="img/barber2.jpg" />
+			<p class = center-align>Ryan</p>
+		</div>
+		<div class="barbers">
+			<img class="imagebar-1of3" src="img/barber3.jpg" />
+			<p class = center-align>Bill</p>
+		</div>
+	</section>
 
 	<section>
 		<h1>Fill out the form:</h1>
@@ -88,19 +123,7 @@
 
 	</div> <!-- End of col-2of3 -->
 
-	<div class="col-1of3">
-
-		<h1>Appointment for:</h1>
-		<section>
-			<figure>
-				<img id="preview" alt="Preview Image" src="img/the-cat.jpg">
-			</figure>
-		</section>
-
-		<h2>The Cat</h2>
-		<h2>$15.00<h2>
-
-	</div><!-- End of col-1of3 -->
-
 	</div> <!-- End of grid with 15% margin -->
+	</div>
+	<script src="js/ui.js"></script>
 </body>
