@@ -27,6 +27,7 @@ nav:after {
 	content: "";
 	display: block;
 	clear: both;
+	margin-bottom: 2rem;
 }
 
 .col-1of4 {
@@ -34,26 +35,8 @@ nav:after {
 	text-align: center;
 }
 
-@media (max-width: 640px) {
-	.col-1of4 {
-		width: 50%;
-	}
-}
-
-@media (max-width: 320px) {
-	.col-1of4 {
-		width: 100%;
-	}
-}
-
-@media (max-width: 256px) {
-	.img-1of3 {
-		width: 33.333%;
-	}
-}
-
 .col-1of3 {
-	width: 33%;
+	width: 33.333%;
 }
 
 .col-1of3-right {
@@ -68,4 +51,79 @@ nav:after {
 
 .col-1of4 {
 	width: 25%;
+}
+
+/*added*/
+
+.barbers {
+	width:33.333%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+
+#ourinfo.col-1of3 {
+	width: 33.333%;
+	margin-left:66.666%;
+	float:left;
+}
+#leavemsg.col-2of3 {
+	width: 61.666%;
+	margin-right:5%;
+	margin-left:-100%;
+	float:left;
+}
+
+@media (max-width: 49.938em) {
+	[class*="col-"] {
+	    width: 100%; 
+	    margin-left: 0;
+		float:none;
+  	}
+  	.col-1of4 {
+  		width:50%;
+  	}
+
+  	/*contact page*/
+  	#ourinfo.col-1of3 {
+	width: 100%; 
+	    margin-left: 0;
+		float:none;
+	}
+	#leavemsg.col-2of3 {
+		width: 100%; 
+	    margin-left: 0;
+		float:none;
+	}
+}
+
+/*nav in 50%*/
+@media (min-width:32.5em) and (max-width: 49.938em) {
+	/*index page*/
+	#review.col-2of3 {
+		width:60%;
+		display:inline-block;
+	}
+	#gimli.col-1of3-right {
+		width: 25%;
+		margin-left: 5%;
+		display:inline-block;
+	}
+
+}
+@media (min-width: 32.5em) and (max-width: 38.688em) {
+
+}
+
+@media (max-width: 32.458em) {
+	#review.col-2of3 {
+		/*width:45%;*/
+		float:left;
+	}
+	#gimli.col-1of3-right {
+		width: 25%;
+		float:left;
+		margin:0 1rem 0 0;
+		display:inline-block;
+	}
 }
