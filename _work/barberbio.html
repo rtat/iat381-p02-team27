@@ -5,36 +5,65 @@
 	<meta charset="utf-8">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/grid.css" rel="stylesheet">
+
+	<link rel="shortcut icon" href="../favicon.ico"> 
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
 	<title>Mad Barbers: Barber Bio</title>
 </head>
 
 <body>
-	<section id="menu-top">
+	<div class="container">	
+		<div class="grid">
+			<nav id="menu" class="nav">					
+				<ul>
+					<li>
+						<a href="index.html">
+							<span class="icon">
+								<i aria-hidden="true" class="icon-home"></i>
+							</span>
+							<span>Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="gallery.html">
+							<span class="icon"> 
+								<i aria-hidden="true" class="icon-mustache"></i>
+							</span>
+							<span>Gallery</span>
+						</a>
+					</li>
+					<li>
+						<a href="barberbio.html" class="current">
+							<span class="icon">
+								<i aria-hidden="true" class="icon-team"></i>
+							</span>
+							<span>Barbers</span>
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							<span class="icon">
+								<i aria-hidden="true" class="icon-compass"></i>
+							</span>
+							<span>Contact</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
 
-	<div class="grid">
-
-	<nav>
-			<div class="col-1of4">
-				<a href="index.html">Mad Barbers</a>
-			</div>
-			<div class="col-1of4">
-				<a href="gallery.html">Gallery</a>
-			</div>
-			<div class="col-1of4">
-				<a href="barberbio.html" class="current">Barber Bio</a>
-			</div>
-			<div class="col-1of4">
-				<a href="contact.html">Contact Us</a>
-			</div>
-	</nav>
-
-	</section>
-
-	<div class="grid">
-
-	<section id="banner">
-		<img alt="banner">
-	</section>
+		<div class="barbers">
+			<img class="imagebar-1of3" src="img/barber1.jpg" />
+			<p class = center-align>Jim</p></a>
+		</div>
+		<div class="barbers">
+			<img class="imagebar-1of3" src="img/barber2.jpg" />
+			<p class = center-align>Ryan</p>
+		</div>
+		<div class="barbers">
+			<img class="imagebar-1of3" src="img/barber3.jpg" />
+			<p class = center-align>Bill</p>
+		</div>
 
 	<section class="aboutbarber">
 		<h1>About Jim</h1>
@@ -46,42 +75,33 @@
  	<div class="col-2of3">
 	<section class="styles" id="specialty">
 		<h1>Specialties</h1>
-
-		<div class="col-1of3">
-		<img class="imagebar-1of3" src="img/beard.png" />
-		<p class = center-align>The Cat</p>
-		</div>
-		<div class="col-1of3">
-		<img class="imagebar-1of3" src="img/beard.png" />
-		<p class = center-align>The Cat</p>
-		</div>
-		<div class="col-1of3">
-		<img class="imagebar-1of3" src="img/beard.png" />
-		<p class = center-align>The Cat</p>
-		</div>
-
+		<ul class="rig columns-3">
+			<li><a href="preview.html"><img src="img/beard1.jpg" /><p class=center-align>Cat</p></a></li>
+			<li><a href="preview.html"><img src="img/beard2.jpg" /><p class=center-align>Cat</p></a></li>
+			<li><a href="preview.html"><img src="img/beard3.jpg" /><p class=center-align>Cat</p></a></li>
+		</ul>
 	</section>
-
-
 	</div> <!-- End of col-2of3 -->
 
 	<div class="col-1of3-right">
 		<h1>Comments</h1>
 		<div id="comment-block">
-		<p id="leave-comment">Talk about Jim!
-		<a href="" id="comment-button"><img alt="    "></a></p>
+		<p id="leave-comment">Talk to Jim!
+			<a href="contact.html" id="comment-button"><img width="37" height="37" alt="Comment" src="img/pen.jpg"></a>
+		</p>
 		</div>
 		<section>
-			<h3>"Spectacular!"</h3>
-			<p class="right-align">-Leonard Nimoy</p>
-			<h3>"Buzzinga!"</h3>
-			<p class="right-align">-Jim Parsons</p>
+			<h3>"Quote 1"</h3>
+			<p class="right-align">Person 1</p>
+			<h3>"Quote 2"</h3>
+			<p class="right-align">Person 2</p>
 			<h3>"Quote 3"</h3>
-			<p class="right-align">-Wilfred Laurier</p>
+			<p class="right-align">Person 3</p>
 		</section>
 		
 	</div> <!-- End of col-1of3 -->
 
 	</div>
 	</div> <!-- End of grid -->
+	<script src="js/ui.js"></script>
 </body>
