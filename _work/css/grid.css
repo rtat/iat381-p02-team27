@@ -9,6 +9,7 @@
 .grid {
 	width: 70%;
 	margin: 0 auto;
+<<<<<<< d5d52a6b23ee3bad0e67fdf29aa9959a4ac0ef5b
 <<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
 <<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 	padding-bottom: 2rem;
@@ -16,6 +17,8 @@
 >>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
 =======
 	background-color: #FFF;
+=======
+>>>>>>> 00ac54bd3d8855274cb78efebc706c3187526269
 	padding-bottom: 2rem;
 >>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 }
@@ -288,7 +291,6 @@ nav:after {
 	margin-left:-100%;
 	float:left;
 }
-
 @media (max-width: 50em) {
 	[class*="col-"] {
 	    width: 100%; 
@@ -301,13 +303,16 @@ nav:after {
 
   	/*contact page*/
   	#ourinfo.col-1of3 {
-	width: 100%; 
-	    margin-left: 0;
+		width: 100%; 
+	    margin-left: 0rem;
+	    padding-left:2rem;
 		float:none;
 	}
 	#leavemsg.col-2of3 {
 		width: 100%; 
-	    margin-left: 0;
+	    margin-left: -2.6rem;
+	    margin-right: 0;
+	    padding-left:4.5rem;
 		float:none;
 	}
 }
@@ -329,16 +334,53 @@ nav:after {
 }
 
 @media (max-width: 32.5em) {
+	body {
+		background-color: #FFF;
+	}
+	.grid {
+		background-color: none;
+	}
+
+	/*home*/
 	#review.col-2of3 {
 		/*width:45%;*/
 		float:left;
+		padding:0;
 	}
 	#gimli.col-1of3-right {
 		width: 100%;
 		float:left;
-		padding-right:2.5rem;
-		padding-left: 2.5rem;
+		/*padding-right:2.5rem;*/
+		/*padding-left: 2.5rem;*/
+		padding:0;
 		display:inline-block;
+	}
+	#intro.col-2of3, .aboutbarber{
+		padding:0;
+		margin: 0;
+	}
+
+	#promo.col-1of3-right {
+		margin: 0 0 0 -2rem;
+		width:100%;
+	}
+	/*barberbio*/
+	#specialty.col-2of3 {
+		margin: 0 0 0 -2rem;
+		float: left;
+	}
+
+	#leavemsg.col-2of3 {
+		width: 130%; 
+	}
+
+	/*contact page*/
+  	#ourinfo.col-1of3 {
+	    padding: 0;
+
+	}
+	#leavemsg.col-2of3 {
+		padding: 2.5rem;
 	}
 }
 <<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
@@ -359,7 +401,6 @@ nav:after {
 	#left-col {
 		width: 50%;
 	}
-
 }
 
 @media (max-width: 50em) {
@@ -380,6 +421,12 @@ nav:after {
 
 	.confirmed-style {
 		width: 100%;
+	}	
+
+	.barbers {
+		padding: 0;
+		width: 100%;
+		text-align: center;
 	}
 }
 
@@ -393,6 +440,17 @@ nav:after {
 
 	#specialty {
 		width: 100%;
+		margin: 0 auto;
+		padding: 0 2rem 0;
+	}
+	.barbers {
+		padding: 0;
+	}
+}
+
+@media (min-width: 520px) {
+	.grid {
+		background-color: #FFF;
 	}
 }
 >>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b

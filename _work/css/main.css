@@ -222,11 +222,16 @@ form textarea {
 	border: 0.1rem solid #999;
 }
 
+<<<<<<< d5d52a6b23ee3bad0e67fdf29aa9959a4ac0ef5b
 <<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
 .barbers
 
 =======
 >>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
+=======
+.barbers
+
+>>>>>>> 00ac54bd3d8855274cb78efebc706c3187526269
 #barbers { /*in booking page*/
 	width: 100%;
 	float: left;
@@ -281,16 +286,19 @@ ul.rig {
 	list-style: none;
 	font-size: 0px;
 	margin-left: -2.5%; /* should match li left margin */
-	padding-right: 2rem;
 }
 ul.rig li {
 	display: inline-block;
 	padding: 10px;
+<<<<<<< d5d52a6b23ee3bad0e67fdf29aa9959a4ac0ef5b
 <<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 	margin: 0 -2.5% 2.5% 2.5%;
 =======
 	margin: 0 0 2.5% 2.5%;
 >>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
+=======
+	margin: 0 -2.5% 2.5% 2.5%;
+>>>>>>> 00ac54bd3d8855274cb78efebc706c3187526269
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
