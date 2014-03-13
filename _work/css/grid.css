@@ -47,6 +47,7 @@ nav:after {
 	padding-right: 2.5rem;
 }
 
+
 .col-1of3-right {
 	width: 28%;
 }
@@ -212,6 +213,7 @@ nav:after {
 
 	.confirmed-style {
 		width: 100%;
+		/*min-width:10rem;*/
 	}	
 
 	.barbers {
@@ -222,6 +224,21 @@ nav:after {
 }
 
 @media (max-width: 70em) {
+	/*index page*/
+	#review.col-2of3 {
+		width: 100%;
+		display:inline-block;
+	}
+
+	#gimli.col-1of3-right {
+		width: 100%;
+		text-align: center;
+		display:inline-block;
+	}
+	#intro.col-2of3 {
+		width:100%;
+	}
+
 	/*barberbio page*/
 	.col-1of3-right {
 		width: 100%;
