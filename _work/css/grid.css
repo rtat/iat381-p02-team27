@@ -9,7 +9,6 @@
 .grid {
 	width: 70%;
 	margin: 0 auto;
-	background-color: #FFF;
 	padding-bottom: 2rem;
 }
 
@@ -86,7 +85,6 @@ nav:after {
 	margin-left:-100%;
 	float:left;
 }
-
 @media (max-width: 50em) {
 	[class*="col-"] {
 	    width: 100%; 
@@ -99,13 +97,16 @@ nav:after {
 
   	/*contact page*/
   	#ourinfo.col-1of3 {
-	width: 100%; 
-	    margin-left: 0;
+		width: 100%; 
+	    margin-left: 0rem;
+	    padding-left:2rem;
 		float:none;
 	}
 	#leavemsg.col-2of3 {
 		width: 100%; 
-	    margin-left: 0;
+	    margin-left: -2.6rem;
+	    margin-right: 0;
+	    padding-left:4.5rem;
 		float:none;
 	}
 }
@@ -127,16 +128,53 @@ nav:after {
 }
 
 @media (max-width: 32.5em) {
+	body {
+		background-color: #FFF;
+	}
+	.grid {
+		background-color: none;
+	}
+
+	/*home*/
 	#review.col-2of3 {
 		/*width:45%;*/
 		float:left;
+		padding:0;
 	}
 	#gimli.col-1of3-right {
 		width: 100%;
 		float:left;
-		padding-right:2.5rem;
-		padding-left: 2.5rem;
+		/*padding-right:2.5rem;*/
+		/*padding-left: 2.5rem;*/
+		padding:0;
 		display:inline-block;
+	}
+	#intro.col-2of3, .aboutbarber{
+		padding:0;
+		margin: 0;
+	}
+
+	#promo.col-1of3-right {
+		margin: 0 0 0 -2rem;
+		width:100%;
+	}
+	/*barberbio*/
+	#specialty.col-2of3 {
+		margin: 0 0 0 -2rem;
+		float: left;
+	}
+
+	#leavemsg.col-2of3 {
+		width: 130%; 
+	}
+
+	/*contact page*/
+  	#ourinfo.col-1of3 {
+	    padding: 0;
+
+	}
+	#leavemsg.col-2of3 {
+		padding: 2.5rem;
 	}
 }
 
@@ -154,7 +192,6 @@ nav:after {
 	#left-col {
 		width: 50%;
 	}
-
 }
 
 @media (max-width: 50em) {
@@ -175,6 +212,12 @@ nav:after {
 
 	.confirmed-style {
 		width: 100%;
+	}	
+
+	.barbers {
+		padding: 0;
+		width: 100%;
+		text-align: center;
 	}
 }
 
@@ -188,5 +231,16 @@ nav:after {
 
 	#specialty {
 		width: 100%;
+		margin: 0 auto;
+		padding: 0 2rem 0;
+	}
+	.barbers {
+		padding: 0;
+	}
+}
+
+@media (min-width: 520px) {
+	.grid {
+		background-color: #FFF;
 	}
 }

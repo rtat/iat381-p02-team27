@@ -75,11 +75,6 @@ nav a.current {
 	display:inline-block;
 }
 
-/*#banner img {*/
-	/*max-width: 100%;*/
-	/*max-height: 100%;*/
-/*}*/
-
 #banner iframe {
 	max-width: 100%;
 	max-height: 100%;
@@ -213,6 +208,8 @@ form textarea {
 	border: 0.1rem solid #999;
 }
 
+.barbers
+
 #barbers { /*in booking page*/
 	width: 100%;
 	float: left;
@@ -267,12 +264,11 @@ ul.rig {
 	list-style: none;
 	font-size: 0px;
 	margin-left: -2.5%; /* should match li left margin */
-	padding-right: 2rem;
 }
 ul.rig li {
 	display: inline-block;
 	padding: 10px;
-	margin: 0 0 2.5% 2.5%;
+	margin: 0 -2.5% 2.5% 2.5%;
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
