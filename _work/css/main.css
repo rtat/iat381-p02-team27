@@ -4,14 +4,7 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 16px;
 	color: black;
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 	background-color: #999;
-=======
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-=======
-	background-color: #999;
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 }
 
 h1 {	/* Titles/headings */
@@ -64,13 +57,6 @@ nav a.current {
 	background-color: #265C81;
 	padding-right: 0.5rem;
 	padding-left: 0.5rem;
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
-=======
-	padding-top: 0.5rem;
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-=======
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 	padding-bottom: 0.5rem;
 	text-decoration: none;
 }
@@ -222,16 +208,8 @@ form textarea {
 	border: 0.1rem solid #999;
 }
 
-<<<<<<< d5d52a6b23ee3bad0e67fdf29aa9959a4ac0ef5b
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
 .barbers
 
-=======
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
-=======
-.barbers
-
->>>>>>> 00ac54bd3d8855274cb78efebc706c3187526269
 #barbers { /*in booking page*/
 	width: 100%;
 	float: left;
@@ -290,15 +268,7 @@ ul.rig {
 ul.rig li {
 	display: inline-block;
 	padding: 10px;
-<<<<<<< d5d52a6b23ee3bad0e67fdf29aa9959a4ac0ef5b
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 	margin: 0 -2.5% 2.5% 2.5%;
-=======
-	margin: 0 0 2.5% 2.5%;
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-=======
-	margin: 0 -2.5% 2.5% 2.5%;
->>>>>>> 00ac54bd3d8855274cb78efebc706c3187526269
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
@@ -328,15 +298,7 @@ ul.rig.columns-4 li {
 	width: 22.5%; /* this value + 2.5 should = 25% */
 }
 
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 @media (max-width: 32.5em) {
-=======
-@media (max-width: 32.458em) {
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-=======
-@media (max-width: 32.5em) {
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 	ul.grid-nav li {
 		display: block;
 		margin: 0 0 5px;
@@ -354,15 +316,7 @@ ul.rig.columns-4 li {
 }
 
 /*50%menu*/
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 @media (min-width:32.5em) and (max-width: 50em) {
-=======
-@media (min-width:32.5em) and (max-width: 49.938em) {
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-=======
-@media (min-width:32.5em) and (max-width: 50em) {
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 	ul.rig li {
 		width: 47.5% !important; /* over-ride all li styles */
 		margin: 0 0 10px;
@@ -375,18 +329,8 @@ ul.rig.columns-4 li {
 	min-width:5rem;
 	display:inline-block;
 }
-<<<<<<< 97d1d08df8baa0b163dd855bc6895b7ef7d7b312
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
-=======
->>>>>>> 7e7730db5e358cf3b8747ba445104974b9cab4f4
 
 #promofloat {
 	float:left;
 	margin:0 1rem 1rem 0;
-<<<<<<< 97d1d08df8baa0b163dd855bc6895b7ef7d7b312
 }
-=======
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-=======
-}
->>>>>>> 7e7730db5e358cf3b8747ba445104974b9cab4f4

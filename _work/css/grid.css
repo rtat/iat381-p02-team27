@@ -9,18 +9,7 @@
 .grid {
 	width: 70%;
 	margin: 0 auto;
-<<<<<<< d5d52a6b23ee3bad0e67fdf29aa9959a4ac0ef5b
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 	padding-bottom: 2rem;
-=======
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-=======
-	background-color: #FFF;
-=======
->>>>>>> 00ac54bd3d8855274cb78efebc706c3187526269
-	padding-bottom: 2rem;
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 }
 
 .grid:after {
@@ -49,10 +38,6 @@ nav:after {
 
 .col-1of3 {
 	width: 33.333%;
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
-=======
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 	float: right;
 }
 
@@ -73,199 +58,8 @@ nav:after {
 	padding-right: 2.5rem;
 	padding-bottom: 2rem;
 	float: left;
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
 }
 
-.col-1of4 {
-	width: 25%;
-}
-
-/*added*/
-
-.barbers {
-	width:33.333%;
-	float: left;
-	padding-right: 2rem;
-	padding-left: 2rem;
-	text-align: left;
-}
-
-#ourinfo.col-1of3 {
-	width: 33.333%;
-	margin-left:66.666%;
-	float:left;
-}
-#leavemsg.col-2of3 {
-	width: 61.666%;
-	margin-right:5%;
-	margin-left:-100%;
-	float:left;
-}
-@media (max-width: 50em) {
-	[class*="col-"] {
-	    width: 100%; 
-	    margin-left: 0;
-		float:none;
-  	}
-  	.col-1of4 {
-  		width:50%;
-  	}
-
-  	/*contact page*/
-  	#ourinfo.col-1of3 {
-		width: 100%; 
-	    margin-left: 0rem;
-	    padding-left:2rem;
-		float:none;
-	}
-	#leavemsg.col-2of3 {
-		width: 100%; 
-	    margin-left: -2.6rem;
-	    margin-right: 0;
-	    padding-left:4.5rem;
-		float:none;
-	}
-}
-
-/*nav in 50%*/
-@media (min-width:32.5em) and (max-width: 50em) {
-	/*index page*/
-	#review.col-2of3 {
-		width: 100%;
-		display:inline-block;
-	}
-	#gimli.col-1of3-right {
-		width: 100%;
-		padding-right:2.5rem;
-		padding-left: 2.5rem;
-		display:inline-block;
-	}
-
-=======
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
-}
-
-@media (max-width: 32.5em) {
-	body {
-		background-color: #FFF;
-	}
-	.grid {
-		background-color: none;
-	}
-
-	/*home*/
-	#review.col-2of3 {
-		/*width:45%;*/
-		float:left;
-		padding:0;
-	}
-	#gimli.col-1of3-right {
-		width: 100%;
-		float:left;
-		/*padding-right:2.5rem;*/
-		/*padding-left: 2.5rem;*/
-		padding:0;
-		display:inline-block;
-	}
-	#intro.col-2of3, .aboutbarber{
-		padding:0;
-		margin: 0;
-	}
-
-	#promo.col-1of3-right {
-		margin: 0 0 0 -2rem;
-		width:100%;
-	}
-	/*barberbio*/
-	#specialty.col-2of3 {
-		margin: 0 0 0 -2rem;
-		float: left;
-	}
-
-	#leavemsg.col-2of3 {
-		width: 130%; 
-	}
-
-	/*contact page*/
-  	#ourinfo.col-1of3 {
-	    padding: 0;
-
-	}
-	#leavemsg.col-2of3 {
-		padding: 2.5rem;
-	}
-}
-
-@media (min-width: 50em) and (max-width: 79em) {
-	/*preview page*/
-	#right-col {
-		width: 100%;
-	}
-
-	#details {
-		width: 50%;
-		padding-right: 2.5rem;
-	}
-
-	#left-col {
-		width: 50%;
-	}
-=======
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-}
-
-@media (max-width: 50em) {
-	/*preview page*/
-	#right-col {
-		width: 100%;
-	}
-
-	#details {
-		width: 100%;
-		padding-left: 2.5rem;
-		padding-right: 2.5rem;
-	}
-
-	#left-col {
-		width: 100%;
-	}
-
-	.confirmed-style {
-		width: 100%;
-	}	
-
-	.barbers {
-		padding: 0;
-		width: 100%;
-		text-align: center;
-	}
-}
-
-@media (max-width: 70em) {
-	/*barberbio page*/
-	.col-1of3-right {
-		width: 100%;
-		padding-right: 2rem;
-		padding-left: 2rem;
-	}
-
-	#specialty {
-		width: 100%;
-		margin: 0 auto;
-		padding: 0 2rem 0;
-	}
-	.barbers {
-		padding: 0;
-	}
-}
-
-<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
-@media (min-width: 520px) {
-	.grid {
-		background-color: #FFF;
-	}
-}
-=======
 .col-1of4 {
 	width: 25%;
 }
@@ -383,9 +177,6 @@ nav:after {
 		padding: 2.5rem;
 	}
 }
-<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
->>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
-=======
 
 @media (min-width: 50em) and (max-width: 79em) {
 	/*preview page*/
@@ -453,4 +244,3 @@ nav:after {
 		background-color: #FFF;
 	}
 }
->>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
