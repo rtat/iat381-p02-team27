@@ -4,7 +4,10 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 16px;
 	color: black;
+<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 	background-color: #999;
+=======
+>>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
 }
 
 h1 {	/* Titles/headings */
@@ -57,6 +60,10 @@ nav a.current {
 	background-color: #265C81;
 	padding-right: 0.5rem;
 	padding-left: 0.5rem;
+<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
+=======
+	padding-top: 0.5rem;
+>>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
 	padding-bottom: 0.5rem;
 	text-decoration: none;
 }
@@ -268,7 +275,11 @@ ul.rig {
 ul.rig li {
 	display: inline-block;
 	padding: 10px;
+<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 	margin: 0 -2.5% 2.5% 2.5%;
+=======
+	margin: 0 0 2.5% 2.5%;
+>>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
@@ -298,7 +309,11 @@ ul.rig.columns-4 li {
 	width: 22.5%; /* this value + 2.5 should = 25% */
 }
 
+<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 @media (max-width: 32.5em) {
+=======
+@media (max-width: 32.458em) {
+>>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
 	ul.grid-nav li {
 		display: block;
 		margin: 0 0 5px;
@@ -316,7 +331,11 @@ ul.rig.columns-4 li {
 }
 
 /*50%menu*/
+<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 @media (min-width:32.5em) and (max-width: 50em) {
+=======
+@media (min-width:32.5em) and (max-width: 49.938em) {
+>>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
 	ul.rig li {
 		width: 47.5% !important; /* over-ride all li styles */
 		margin: 0 0 10px;
@@ -329,8 +348,11 @@ ul.rig.columns-4 li {
 	min-width:5rem;
 	display:inline-block;
 }
+<<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 
 #promofloat {
 	float:left;
 	margin:0 1rem 1rem 0;
 }
+=======
+>>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
