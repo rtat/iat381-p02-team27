@@ -9,10 +9,15 @@
 .grid {
 	width: 70%;
 	margin: 0 auto;
+<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
 <<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
 	padding-bottom: 2rem;
 =======
 >>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
+=======
+	background-color: #FFF;
+	padding-bottom: 2rem;
+>>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 }
 
 .grid:after {
@@ -41,7 +46,10 @@ nav:after {
 
 .col-1of3 {
 	width: 33.333%;
+<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
 <<<<<<< bd59d68dd381403bfabedb158588838c49e759fc
+=======
+>>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 	float: right;
 }
 
@@ -62,6 +70,7 @@ nav:after {
 	padding-right: 2.5rem;
 	padding-bottom: 2rem;
 	float: left;
+<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
 }
 
 .col-1of4 {
@@ -129,6 +138,8 @@ nav:after {
 		display:inline-block;
 	}
 
+=======
+>>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
 }
 
 @media (max-width: 32.5em) {
@@ -261,7 +272,8 @@ nav:after {
 .barbers {
 	width:33.333%;
 	float: left;
-	padding: 0;
+	padding-right: 2rem;
+	padding-left: 2rem;
 	text-align: left;
 }
 
@@ -277,7 +289,7 @@ nav:after {
 	float:left;
 }
 
-@media (max-width: 49.938em) {
+@media (max-width: 50em) {
 	[class*="col-"] {
 	    width: 100%; 
 	    margin-left: 0;
@@ -301,33 +313,86 @@ nav:after {
 }
 
 /*nav in 50%*/
-@media (min-width:32.5em) and (max-width: 49.938em) {
+@media (min-width:32.5em) and (max-width: 50em) {
 	/*index page*/
 	#review.col-2of3 {
-		width:60%;
+		width: 100%;
 		display:inline-block;
 	}
 	#gimli.col-1of3-right {
-		width: 25%;
-		margin-left: 5%;
+		width: 100%;
+		padding-right:2.5rem;
+		padding-left: 2.5rem;
 		display:inline-block;
 	}
 
 }
-@media (min-width: 32.5em) and (max-width: 38.688em) {
 
-}
-
-@media (max-width: 32.458em) {
+@media (max-width: 32.5em) {
 	#review.col-2of3 {
 		/*width:45%;*/
 		float:left;
 	}
 	#gimli.col-1of3-right {
-		width: 25%;
+		width: 100%;
 		float:left;
-		margin:0 1rem 0 0;
+		padding-right:2.5rem;
+		padding-left: 2.5rem;
 		display:inline-block;
 	}
 }
+<<<<<<< 6c21d131e2bf90a8ee6875c3ba9815b93d8f3e84
 >>>>>>> 65e0b31bdcb838c33b00f29beaa7eb0e953b4a97
+=======
+
+@media (min-width: 50em) and (max-width: 79em) {
+	/*preview page*/
+	#right-col {
+		width: 100%;
+	}
+
+	#details {
+		width: 50%;
+		padding-right: 2.5rem;
+	}
+
+	#left-col {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 50em) {
+	/*preview page*/
+	#right-col {
+		width: 100%;
+	}
+
+	#details {
+		width: 100%;
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	#left-col {
+		width: 100%;
+	}
+
+	.confirmed-style {
+		width: 100%;
+	}
+}
+
+@media (max-width: 70em) {
+	/*barberbio page*/
+	.col-1of3-right {
+		width: 100%;
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
+
+	#specialty {
+		width: 100%;
+	}
+}
+>>>>>>> 97e055f65df31c0d617d0acefb790ab0e9b5243b
